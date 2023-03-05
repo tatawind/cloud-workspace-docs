@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="drnLxJsywTrmw5wyHtBu" name="领域模型-工作空间">
-        <mxGraphModel dx="2256" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2670" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -142,8 +142,21 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="244" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="51" target="107">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="245" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="244">
+                    <mxGeometry x="0.7132" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="246" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="244">
+                    <mxGeometry x="-0.698" y="4" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="51" value="开发者" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="254" y="220" width="160" height="60" as="geometry"/>
+                    <mxGeometry x="35" y="210" width="160" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="52" value="用户ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="51" vertex="1">
                     <mxGeometry y="26" width="160" height="26" as="geometry"/>
@@ -281,7 +294,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="107" value="工作空间模板" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="-370" y="450" width="210" height="242" as="geometry"/>
+                    <mxGeometry x="-370" y="450" width="210" height="268" as="geometry"/>
                 </mxCell>
                 <mxCell id="108" value="模板ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="107" vertex="1">
                     <mxGeometry y="26" width="210" height="26" as="geometry"/>
@@ -304,14 +317,17 @@
                 <mxCell id="228" value="镜像" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="107" vertex="1">
                     <mxGeometry y="182" width="210" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="230" value="描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="107" vertex="1">
+                <mxCell id="239" value="类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="107">
                     <mxGeometry y="208" width="210" height="26" as="geometry"/>
                 </mxCell>
+                <mxCell id="230" value="描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="107" vertex="1">
+                    <mxGeometry y="234" width="210" height="26" as="geometry"/>
+                </mxCell>
                 <mxCell id="109" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="107" vertex="1">
-                    <mxGeometry y="234" width="210" height="8" as="geometry"/>
+                    <mxGeometry y="260" width="210" height="8" as="geometry"/>
                 </mxCell>
                 <mxCell id="116" value="SSH公钥" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="70" y="120" width="160" height="60" as="geometry"/>
+                    <mxGeometry x="414" y="80" width="160" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="117" value="Git SSH公钥" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="116" vertex="1">
                     <mxGeometry y="26" width="160" height="26" as="geometry"/>
@@ -357,8 +373,21 @@
                         <mxPoint y="1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="240" style="edgeStyle=none;html=1;entryX=0.19;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="152" target="107">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="242" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="240">
+                    <mxGeometry x="-0.7304" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="243" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="240">
+                    <mxGeometry x="0.8781" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="152" value="组织" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="334" y="60" width="160" height="86" as="geometry"/>
+                    <mxGeometry x="-250" y="67" width="160" height="86" as="geometry"/>
                 </mxCell>
                 <mxCell id="153" value="组织ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="152" vertex="1">
                     <mxGeometry y="26" width="160" height="26" as="geometry"/>
@@ -370,7 +399,7 @@
                     <mxGeometry y="78" width="160" height="8" as="geometry"/>
                 </mxCell>
                 <mxCell id="159" value="镜像" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="-370" y="834" width="210" height="112" as="geometry"/>
+                    <mxGeometry x="-370" y="834" width="210" height="138" as="geometry"/>
                 </mxCell>
                 <mxCell id="160" value="镜像名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="159" vertex="1">
                     <mxGeometry y="26" width="210" height="26" as="geometry"/>
@@ -378,11 +407,14 @@
                 <mxCell id="161" value="镜像版本" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="159" vertex="1">
                     <mxGeometry y="52" width="210" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="162" value="描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="159" vertex="1">
+                <mxCell id="252" value="类型" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="159">
                     <mxGeometry y="78" width="210" height="26" as="geometry"/>
                 </mxCell>
+                <mxCell id="162" value="描述" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1" parent="159" vertex="1">
+                    <mxGeometry y="104" width="210" height="26" as="geometry"/>
+                </mxCell>
                 <mxCell id="165" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="159" vertex="1">
-                    <mxGeometry y="104" width="210" height="8" as="geometry"/>
+                    <mxGeometry y="130" width="210" height="8" as="geometry"/>
                 </mxCell>
                 <mxCell id="169" value="IDE插件" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
                     <mxGeometry x="-970" y="357" width="210" height="112" as="geometry"/>
@@ -477,8 +509,13 @@
                 <mxCell id="33" value="容器状态：&lt;br&gt;启动中&lt;br&gt;已启动&lt;br&gt;已停止&lt;br&gt;停止中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="130" y="946" width="160" height="90" as="geometry"/>
                 </mxCell>
+                <mxCell id="247" style="edgeStyle=none;html=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="238" target="159">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-260" y="782" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="238" value="根据模板制作镜像" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-                    <mxGeometry x="-380" y="767" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="-413" y="767" width="120" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

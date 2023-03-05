@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
-    <diagram id="aPbxnIXhvxY7Vv5l47Lp" name="用例概览01">
-        <mxGraphModel dx="602" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <diagram id="aPbxnIXhvxY7Vv5l47Lp" name="用例概览">
+        <mxGraphModel dx="1256" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -57,58 +57,6 @@
                 </mxCell>
                 <mxCell id="MA2kNNp2urnFE7rZIyQ3-21" value="使用WEB&amp;nbsp;IDE" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="660" y="229" width="140" height="70" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram id="q_xZ7iSY3BvQjYLEaZ9Q" name="用例概览02">
-        <mxGraphModel dx="1365" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="rANdPYTnl141sEH0bHgk-7" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="yeteRncxJKpvOw-vdha9-1" target="rANdPYTnl141sEH0bHgk-2" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="rANdPYTnl141sEH0bHgk-10" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="yeteRncxJKpvOw-vdha9-1" target="rANdPYTnl141sEH0bHgk-9" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="rANdPYTnl141sEH0bHgk-14" style="edgeStyle=none;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yeteRncxJKpvOw-vdha9-1" target="rANdPYTnl141sEH0bHgk-13" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="yeteRncxJKpvOw-vdha9-1" value="系统管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="80" y="380" width="30" height="62" as="geometry"/>
-                </mxCell>
-                <mxCell id="rANdPYTnl141sEH0bHgk-2" value="用户管理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="280" width="140" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="rANdPYTnl141sEH0bHgk-9" value="资源管理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="390" width="140" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="rANdPYTnl141sEH0bHgk-13" value="故障管理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="490" width="140" height="70" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-    <diagram id="FQ3vRzvQjMP7juogMcCg" name="用例概览03">
-        <mxGraphModel dx="546" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                <mxCell id="6yHDQiKbJkn8gTUTNSf6-3" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="eacPk6s5SArJRNYhUjPd-1" target="6yHDQiKbJkn8gTUTNSf6-1" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="6yHDQiKbJkn8gTUTNSf6-4" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="eacPk6s5SArJRNYhUjPd-1" target="6yHDQiKbJkn8gTUTNSf6-2" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="eacPk6s5SArJRNYhUjPd-1" value="财务人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="190" y="160" width="30" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="6yHDQiKbJkn8gTUTNSf6-1" value="收入管理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="300" y="110" width="140" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="6yHDQiKbJkn8gTUTNSf6-2" value="支出管理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="300" y="230" width="140" height="70" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
