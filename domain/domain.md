@@ -9,4 +9,5 @@
 ### 领域模型-收费
 ![领域模型3](_media/domain003.svg)
 
-[设计文档下载地址](../_design_file/03.domain/domain.drawio)
+### 设计源文件
+- _design_file/03.domain/domain.drawio

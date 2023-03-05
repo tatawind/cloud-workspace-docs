@@ -1,0 +1,168 @@
+<mxfile host="65bd71144e">
+    <diagram id="NKZK9EwE3HRFE6LuRnpd" name="云服务">
+        <mxGraphModel dx="301" dy="228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-10" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="awjYDUN1BQzUizWD3GhA-1" target="p1c1WMbVd8fGXPk2XWF3-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="awjYDUN1BQzUizWD3GhA-1" value="开发者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="270" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw8J5s4xIUu_C7NTsekD-2" value="" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="p1c1WMbVd8fGXPk2XWF3-1" target="Qw8J5s4xIUu_C7NTsekD-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw8J5s4xIUu_C7NTsekD-5" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="p1c1WMbVd8fGXPk2XWF3-1" target="Qw8J5s4xIUu_C7NTsekD-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw8J5s4xIUu_C7NTsekD-6" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="p1c1WMbVd8fGXPk2XWF3-1" target="Qw8J5s4xIUu_C7NTsekD-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-1" value="创建云服务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="150" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-7" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="p1c1WMbVd8fGXPk2XWF3-2" target="p1c1WMbVd8fGXPk2XWF3-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-8" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="p1c1WMbVd8fGXPk2XWF3-2" target="p1c1WMbVd8fGXPk2XWF3-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-9" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="p1c1WMbVd8fGXPk2XWF3-2" target="p1c1WMbVd8fGXPk2XWF3-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-2" value="云服务管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="270" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-5" value="释放云服务" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="260" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-13" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="p1c1WMbVd8fGXPk2XWF3-6" target="p1c1WMbVd8fGXPk2XWF3-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-14" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="p1c1WMbVd8fGXPk2XWF3-6" target="p1c1WMbVd8fGXPk2XWF3-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-6" value="查看云服务信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="370" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-11" value="查看云服IP、端口等" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="350" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1c1WMbVd8fGXPk2XWF3-12" value="查看云服务资源使用情况" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="430" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw8J5s4xIUu_C7NTsekD-1" value="创建MySQL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="40" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw8J5s4xIUu_C7NTsekD-3" value="创建Redis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="130" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Qw8J5s4xIUu_C7NTsekD-4" value="创建…" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="210" width="140" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="ll45U5yR92Bv3edWf-5r" name="运行调试">
+        <mxGraphModel dx="1338" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="13" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="2" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="2" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="开发者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="640" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="3" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="3" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="发布部署" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="532" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="配置Dockerfile" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="260" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="上传到镜像仓库" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="687" y="370" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="18" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="18" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="12" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="12" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="创建流水线" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="400" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="构建" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="320" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="选择部署YML文件" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="470" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="配置部署环境" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="687" y="560" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="24" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="24" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="24" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="24" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="运行管理" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="840" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="查看运行的程序" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="720" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="27" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;strokeColor=default;endArrow=none;endFill=0;" parent="1" source="27" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="操作运行程序" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="840" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="停止" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="687" y="810" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="重启" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="900" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="删除释放程序" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="940" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="36" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="进入运行的容器" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="1060" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="查看日志" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="687" y="1060" width="140" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
