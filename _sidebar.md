@@ -3,8 +3,11 @@
   - [业务架构]()
 
 - [需求分析](requirement/ "需求分析")
-  - [功能需求]()
-    - [需求用例]()
+  - [功能需求]
+    - [需求用例]
+      - [开发者](/requirement/usercase/usercase-developer.md)
+      - [系统管理员](/requirement/usercase/usercase-admin.md)
+      - [财务人员](/requirement/usercase/usercase-financestaff.md)
     - [关键需求]()
     - [用例分析]()
   - [非功能性需求]()
