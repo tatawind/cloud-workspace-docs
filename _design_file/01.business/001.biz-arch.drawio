@@ -1,0 +1,75 @@
+<mxfile host="65bd71144e">
+    <diagram id="qIa3STP4dFM9xJyBpKSl" name="上下文图">
+        <mxGraphModel dx="1016" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="16" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="云端工作空间&lt;br&gt;Cloud-WorkSpace" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="300" width="230" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="云平台（PaaS）" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="450" width="230" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="70" y="190" width="130" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="22">
+                    <mxGeometry width="130" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="运营部门" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="22">
+                    <mxGeometry x="30" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="系统管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="22">
+                    <mxGeometry x="50" y="50" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="5" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="610" y="140" width="130" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="24">
+                    <mxGeometry y="-10" width="130" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="财务部门" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="24">
+                    <mxGeometry x="30" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="财务人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="24">
+                    <mxGeometry x="50" y="40" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;endArrow=none;endFill=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="590" y="345" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="570" y="350" width="180" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="27">
+                    <mxGeometry y="-10" width="180" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="支付平台" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="27">
+                    <mxGeometry x="41.53846153846154" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="支付宝" style="html=1;" vertex="1" parent="27">
+                    <mxGeometry x="35" y="40" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="微信支付" style="html=1;" vertex="1" parent="27">
+                    <mxGeometry x="35" y="110" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="4" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="开发者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="120" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;endArrow=none;endFill=0;entryX=-0.011;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
