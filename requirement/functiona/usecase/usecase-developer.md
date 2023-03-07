@@ -1,7 +1,5 @@
-## 需求用例分析-面向开发者用户
-
 ### 用例概览
-![用例概览](_media/usecase-developer-001-overview.svg)
+![用例概览](../../../business/_media/usecase-overview/usecase-developer-overview.svg)
 
 ### 在线开发-用例分析
 ![在线开发](_media/usecase-developer-002-onlineworking.svg)

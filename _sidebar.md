@@ -1,23 +1,27 @@
 - [开篇介绍](guide/)
 
-- [业务分析](business/)
+- 业务分析
+  - [<font color="0000dd">分析方法</font>](business/_approach/)
   - [业务愿景](business/business-vision.md)
   - [业务范围](business/business-scope.md)
   - [上下文图](business/business-context.md)
   - [业务流程](business/business-flow.md)
 
-- [需求分析](requirement/)
-  - [功能需求]
-    - [用例分析]
-      - [开发者](/requirement/usecase/usecase-developer.md)
-      - [系统管理员](/requirement/usecase/usecase-admin.md)
-      - [财务人员](/requirement/usecase/usecase-financestaff.md)
+- 需求分析
+  - [<font color="0000dd">分析方法</font>](requirement/_approach/)
+  - 功能需求
+    - 用例分析
+      - [面向开发者](/requirement/functiona/usecase/usecase-developer.md)
+      - [面向系统管理员](/requirement/functiona/usecase/usecase-admin.md)
+      - [面向财务人员](/requirement/functiona/usecase/usecase-financestaff.md)
     - [用例规约]
     - [需求验证]
   - [非功能性需求]()
   - [系统上下文]()
 
-- [领域模型](domain/domain.md "领域模型")
+- 领域模型
+  - [<font color="0000dd">分析方法</font>](domain/_approach/)
+  - [领域模型](domain/domain.md "领域模型")
 
 - [逻辑架构]()
   - [逻辑视图]()
