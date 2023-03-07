@@ -224,10 +224,10 @@
                 <mxCell id="ZPXXVX6sJdJjNKYwcHni-1" style="edgeStyle=none;html=1;endArrow=none;endFill=0;" parent="1" source="ZPXXVX6sJdJjNKYwcHni-2" target="ZPXXVX6sJdJjNKYwcHni-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="ZPXXVX6sJdJjNKYwcHni-2" value="用户组织服务" style="html=1;" parent="1" vertex="1">
+                <mxCell id="ZPXXVX6sJdJjNKYwcHni-2" value="用户组织服务" style="html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="-1380" y="1260" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="ZPXXVX6sJdJjNKYwcHni-3" value="用户组织数据" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="ZPXXVX6sJdJjNKYwcHni-3" value="用户组织数据" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="-1365" y="1355" width="80" height="80" as="geometry"/>
                 </mxCell>
             </root>
